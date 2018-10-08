@@ -1,4 +1,21 @@
 @using Alloy.Web
 @model PageViewModel<Alloy.Web.Models.Pages.StartPage>
 
+<div class="alert alert-success">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+
+    <!-- TODO: Make your change below - Add your name and own text! -->
+    <strong>Fredrik wuz here</strong>
+    TODO! Change \Alloy.Web\Views\StartPage\Index.cshtml in *your* fork on Github to include your name, commit the change and deploy it.
+
+</div>
+
+<div class="alert alert-success">
+    <button type="button" class="close" data-dismiss="alert">&times;</button>
+    <strong>Value of AssemblyInformationalVersion:</strong>
+    @System.Diagnostics.FileVersionInfo.GetVersionInfo(typeof(Alloy.Web.Models.Pages.StartPage).Assembly.Location).ProductVersion
+</div>
+
+
+
 @Html.PropertyFor(x => x.CurrentPage.MainContentArea, new { CssClass = "row equal-height", tag = Global.ContentAreaTags.FullWidth })

@@ -1,0 +1,4 @@
+﻿# Robots.txt for TEST of test.alloy.xyz
+
+User-agent: *
+Disallow: /

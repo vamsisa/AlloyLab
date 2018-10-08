@@ -1,0 +1,5 @@
+﻿# Robots.txt for PRODCUTION of www.alloy.xyz
+
+Sitemap: https://www.alloy.xyz/sitemap/index.xml
+User-agent: *
+Disallow:
